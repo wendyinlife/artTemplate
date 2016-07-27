@@ -16,7 +16,7 @@ module.exports = function (grunt) {
         'src/outro.js'
     ];
 
-    var sources_simple = Array.apply(null, sources_native);
+    var sources_simple1 = Array.apply(null, sources_native);
     sources_simple.splice(sources_native.length - 1, 0, 'src/syntax.js');
 
 
